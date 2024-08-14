@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    max-width: 100%;
+}
+section.header {
+    margin: 0 auto;
+    width: 95vw;
+    height: 80px;
+    display: flex;
+    border-bottom: #004a93 solid 6px;
+    justify-content: center;
+    align-items: center;
+}
+section.header div.logo img {
+    width: 300px;
+    height: 70px;
+}
+section.header div.name {
+    font-weight: 600;
+    font-size: 25px;
+    width: 500px;
+    text-align: center;
+    color: #3b4a93;
+    margin-right: 80px;
+}
+section.header div.button {
+    width: 600px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section.header div.button button {
+    width: 32%;
+    height: 80%;
+    background-color: #004a93;
+    border: none;
+    margin-right: 8px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    transition: 0.5s;
+}
+section.header div.button button:hover {
+    background-color: #00366c;
+}
+div.h1 {
+    width: 100vw;
+    height: auto;
+    text-align: center;
+    color: #004a93;
+    font-size: 14px;
+    margin: 20px 0;
+    font-weight: 650;
+}
+section.advertising {
+    margin: 0 auto;
+    width: 100vw;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+section.advertising img {
+    width: 470px;
+    height: 300px;
+    transition: 0.5s;
+}
+section.advertising img:hover {
+    transform: scale(1.03);
+}
+section.list {
+    width: 100vw;
+    height: auto;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+}
+section.list div.block {
+    width: 330px;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+section.list div.block p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.537);
+    font-size: 16px;
+    font-weight: 660;
+    text-align: center;
+    opacity: 1;
+    color: #fff;
+}
+#pct1 {
+    background-image: url(../image/JPEG1.jpg);
+}
+#pct2 {
+    background-image: url(../image/JPEG2.jpg);
+}
+#pct3 {
+    background-image: url(../image/JPEG3.jpg);
+}
+#pct4 {
+    background-image: url(../image/JPEG4.jpg);
+}
